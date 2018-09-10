@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="TestSuite">
+	<parameter name="url" value="http://app.invoice-factory.source-code.rs" />
+    <test name="Testing">
+        <classes>
+            <class name="tests.LoginPageTest" />
+            <class name="tests.HeaderMenuTest" />
+            <class name="tests.AddNewInvoiceTest" />
+            <class name="tests.InvoicesListTest" />
+        </classes>
+    </test>
+</suite>

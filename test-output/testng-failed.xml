@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TestSuite]" guice-stage="DEVELOPMENT">
+  <parameter name="url" value="http://app.invoice-factory.source-code.rs"/>
+  <test thread-count="5" name="Testing(failed)">
+    <classes>
+      <class name="tests.InvoicesListTest">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="clearCookies"/>
+          <include name="afterClass"/>
+          <include name="setUp"/>
+          <include name="canFilterDateRange"/>
+        </methods>
+      </class> <!-- tests.InvoicesListTest -->
+      <class name="tests.LoginPageTest">
+        <methods>
+          <include name="setupDriver"/>
+          <include name="beforeClass"/>
+          <include name="clearCookies"/>
+          <include name="canLogin" invocation-numbers="0 1"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- tests.LoginPageTest -->
+    </classes>
+  </test> <!-- Testing(failed) -->
+</suite> <!-- Failed suite [TestSuite] -->

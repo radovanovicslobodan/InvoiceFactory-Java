@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="9" total="27" passed="15" failed="3" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2018-09-10T11:01:26Z" name="TestSuite" finished-at="2018-09-10T11:03:00Z" duration-ms="93711">
+    <groups>
+    </groups>
+    <test started-at="2018-09-10T11:01:26Z" name="Testing" finished-at="2018-09-10T11:03:00Z" duration-ms="93711">
+      <class name="tests.HeaderMenuTest">
+        <test-method is-config="true" signature="setupDriver()[pri:0, instance:tests.HeaderMenuTest@37271612]" started-at="2018-09-10T11:01:58Z" name="setupDriver" finished-at="2018-09-10T11:01:58Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="canGoToInvoicesList()[pri:11, instance:tests.HeaderMenuTest@37271612]" started-at="2018-09-10T11:01:58Z" name="canGoToInvoicesList" finished-at="2018-09-10T11:01:59Z" duration-ms="1208" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- canGoToInvoicesList -->
+        <test-method is-config="true" signature="setupDriver()[pri:0, instance:tests.HeaderMenuTest@37271612]" started-at="2018-09-10T11:01:59Z" name="setupDriver" finished-at="2018-09-10T11:01:59Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="canGoToBusinessList()[pri:12, instance:tests.HeaderMenuTest@37271612]" started-at="2018-09-10T11:01:59Z" name="canGoToBusinessList" finished-at="2018-09-10T11:02:00Z" duration-ms="795" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- canGoToBusinessList -->
+        <test-method is-config="true" signature="setupDriver()[pri:0, instance:tests.HeaderMenuTest@37271612]" started-at="2018-09-10T11:02:00Z" name="setupDriver" finished-at="2018-09-10T11:02:00Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="canGoToClientsList()[pri:13, instance:tests.HeaderMenuTest@37271612]" started-at="2018-09-10T11:02:00Z" name="canGoToClientsList" finished-at="2018-09-10T11:02:01Z" duration-ms="850" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- canGoToClientsList -->
+        <test-method signature="canGoToActivityLog()[pri:14, instance:tests.HeaderMenuTest@37271612]" started-at="2018-09-10T11:02:01Z" name="canGoToActivityLog" finished-at="2018-09-10T11:02:02Z" duration-ms="1362" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- canGoToActivityLog -->
+        <test-method is-config="true" signature="setupDriver()[pri:0, instance:tests.HeaderMenuTest@37271612]" started-at="2018-09-10T11:02:01Z" name="setupDriver" finished-at="2018-09-10T11:02:01Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method is-config="true" signature="setupDriver()[pri:0, instance:tests.HeaderMenuTest@37271612]" started-at="2018-09-10T11:02:02Z" name="setupDriver" finished-at="2018-09-10T11:02:02Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="canLogOut(java.lang.String, java.lang.String)[pri:15, instance:tests.HeaderMenuTest@37271612]" started-at="2018-09-10T11:02:02Z" name="canLogOut" data-provider="HeaderProvider" finished-at="2018-09-10T11:02:09Z" duration-ms="6839" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[r.slobodan75@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[qwe123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- canLogOut -->
+      </class> <!-- tests.HeaderMenuTest -->
+      <class name="tests.InvoicesListTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.InvoicesListTest@4c309d4d]" started-at="2018-09-10T11:02:26Z" name="setUp" finished-at="2018-09-10T11:02:26Z" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="canEditInvoice()[pri:30, instance:tests.InvoicesListTest@4c309d4d]" started-at="2018-09-10T11:02:26Z" name="canEditInvoice" finished-at="2018-09-10T11:02:32Z" duration-ms="5958" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- canEditInvoice -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.InvoicesListTest@4c309d4d]" started-at="2018-09-10T11:02:32Z" name="setUp" finished-at="2018-09-10T11:02:32Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="canPreviewInvoice()[pri:31, instance:tests.InvoicesListTest@4c309d4d]" started-at="2018-09-10T11:02:32Z" name="canPreviewInvoice" finished-at="2018-09-10T11:02:35Z" duration-ms="3112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- canPreviewInvoice -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.InvoicesListTest@4c309d4d]" started-at="2018-09-10T11:02:35Z" name="setUp" finished-at="2018-09-10T11:02:35Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="canDeleteInvoice()[pri:32, instance:tests.InvoicesListTest@4c309d4d]" started-at="2018-09-10T11:02:35Z" name="canDeleteInvoice" finished-at="2018-09-10T11:02:38Z" duration-ms="2594" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- canDeleteInvoice -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.InvoicesListTest@4c309d4d]" started-at="2018-09-10T11:02:38Z" name="setUp" finished-at="2018-09-10T11:02:38Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="canFilterClients()[pri:40, instance:tests.InvoicesListTest@4c309d4d]" started-at="2018-09-10T11:02:38Z" name="canFilterClients" finished-at="2018-09-10T11:02:39Z" duration-ms="1232" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- canFilterClients -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.InvoicesListTest@4c309d4d]" started-at="2018-09-10T11:02:39Z" name="setUp" finished-at="2018-09-10T11:02:39Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="canFilterDateRange()[pri:41, instance:tests.InvoicesListTest@4c309d4d]" started-at="2018-09-10T11:02:39Z" name="canFilterDateRange" finished-at="2018-09-10T11:02:49Z" duration-ms="9759" status="FAIL">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[unknown error: Element <button type="button" class="v-btn v-btn--flat">...</button> is not clickable at point (608, 360). Other element would receive the click: <div class="v-btn__content">...</div>
+  (Session info: chrome=69.0.3497.81)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:05:20.749Z'
+System info: host: 'ADMINRG-LUNIIA4', ip: '192.168.1.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '10.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.41.578737 (49da6702b16031..., userDataDir: C:\Users\Boban\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:60166}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.81, webStorageEnabled: true}
+Session ID: 955d34ccfd44effc12d3acc3f1578a27]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: Element <button type="button" class="v-btn v-btn--flat">...</button> is not clickable at point (608, 360). Other element would receive the click: <div class="v-btn__content">...</div>
+  (Session info: chrome=69.0.3497.81)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:05:20.749Z'
+System info: host: 'ADMINRG-LUNIIA4', ip: '192.168.1.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '10.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.41.578737 (49da6702b16031..., userDataDir: C:\Users\Boban\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:60166}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.81, webStorageEnabled: true}
+Session ID: 955d34ccfd44effc12d3acc3f1578a27
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.base/java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+at page_elements.DatePicker.enterDay(DatePicker.java:65)
+at page_elements.DatePicker.enterDate(DatePicker.java:84)
+at page_elements.DatePicker.setFromDate(DatePicker.java:88)
+at pages.InvoicesList.enterFromDate(InvoicesList.java:182)
+at tests.InvoicesListTest.canFilterDateRange(InvoicesListTest.java:51)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- canFilterDateRange -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.InvoicesListTest@4c309d4d]" started-at="2018-09-10T11:02:49Z" name="setUp" finished-at="2018-09-10T11:02:49Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="canFilterThisMonth()[pri:42, instance:tests.InvoicesListTest@4c309d4d]" started-at="2018-09-10T11:02:49Z" name="canFilterThisMonth" finished-at="2018-09-10T11:02:53Z" duration-ms="3743" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- canFilterThisMonth -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.InvoicesListTest@4c309d4d]" started-at="2018-09-10T11:02:53Z" name="setUp" finished-at="2018-09-10T11:02:53Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="canFilterLastMonth()[pri:43, instance:tests.InvoicesListTest@4c309d4d]" started-at="2018-09-10T11:02:53Z" name="canFilterLastMonth" finished-at="2018-09-10T11:02:57Z" duration-ms="3688" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- canFilterLastMonth -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.InvoicesListTest@4c309d4d]" started-at="2018-09-10T11:02:57Z" name="setUp" finished-at="2018-09-10T11:02:57Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="canFilterReset()[pri:43, instance:tests.InvoicesListTest@4c309d4d]" started-at="2018-09-10T11:02:57Z" name="canFilterReset" finished-at="2018-09-10T11:03:00Z" duration-ms="3586" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- canFilterReset -->
+      </class> <!-- tests.InvoicesListTest -->
+      <class name="tests.AddNewInvoiceTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.AddNewInvoiceTest@ed7f8b4]" started-at="2018-09-10T11:02:09Z" name="setUp" finished-at="2018-09-10T11:02:09Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="canAddInvoice()[pri:20, instance:tests.AddNewInvoiceTest@ed7f8b4]" started-at="2018-09-10T11:02:09Z" name="canAddInvoice" finished-at="2018-09-10T11:02:26Z" duration-ms="17195" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- canAddInvoice -->
+      </class> <!-- tests.AddNewInvoiceTest -->
+      <class name="tests.LoginPageTest">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:tests.LoginPageTest@3af9c5b7]" started-at="2018-09-10T11:01:16Z" name="beforeClass" finished-at="2018-09-10T11:01:26Z" duration-ms="10243" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="setupDriver(java.lang.String)[pri:0, instance:tests.LoginPageTest@3af9c5b7]" started-at="2018-09-10T11:01:26Z" name="setupDriver" finished-at="2018-09-10T11:01:31Z" duration-ms="4311" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://app.invoice-factory.source-code.rs]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="canOpenLoginPage()[pri:0, instance:tests.LoginPageTest@3af9c5b7]" started-at="2018-09-10T11:01:31Z" name="canOpenLoginPage" finished-at="2018-09-10T11:01:31Z" duration-ms="182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- canOpenLoginPage -->
+        <test-method is-config="true" signature="setupDriver(java.lang.String)[pri:0, instance:tests.LoginPageTest@3af9c5b7]" started-at="2018-09-10T11:01:31Z" name="setupDriver" finished-at="2018-09-10T11:01:32Z" duration-ms="672" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://app.invoice-factory.source-code.rs]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="canLogin(java.lang.String, java.lang.String)[pri:1, instance:tests.LoginPageTest@3af9c5b7]" started-at="2018-09-10T11:01:32Z" name="canLogin" data-provider="LoginProvider" finished-at="2018-09-10T11:01:43Z" duration-ms="11230" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"id","selector":"home-page-user"}
+  (Session info: chrome=69.0.3497.81)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:05:20.749Z'
+System info: host: 'ADMINRG-LUNIIA4', ip: '192.168.1.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '10.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.41.578737 (49da6702b16031..., userDataDir: C:\Users\Boban\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:60166}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.81, webStorageEnabled: true}
+Session ID: 955d34ccfd44effc12d3acc3f1578a27
+*** Element info: {Using=id, value=home-page-user}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"id","selector":"home-page-user"}
+  (Session info: chrome=69.0.3497.81)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:05:20.749Z'
+System info: host: 'ADMINRG-LUNIIA4', ip: '192.168.1.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '10.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.41.578737 (49da6702b16031..., userDataDir: C:\Users\Boban\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:60166}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.81, webStorageEnabled: true}
+Session ID: 955d34ccfd44effc12d3acc3f1578a27
+*** Element info: {Using=id, value=home-page-user}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.base/java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:368)
+at org.openqa.selenium.By$ById.findElement(By.java:188)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy15.isDisplayed(Unknown Source)
+at pages.HeaderMenu.isAt(HeaderMenu.java:51)
+at tests.LoginPageTest.canLogin(LoginPageTest.java:32)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- canLogin -->
+        <test-method is-config="true" signature="setupDriver(java.lang.String)[pri:0, instance:tests.LoginPageTest@3af9c5b7]" started-at="2018-09-10T11:01:43Z" name="setupDriver" finished-at="2018-09-10T11:01:43Z" duration-ms="581" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://app.invoice-factory.source-code.rs]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="canLogin(java.lang.String, java.lang.String)[pri:1, instance:tests.LoginPageTest@3af9c5b7]" started-at="2018-09-10T11:01:43Z" name="canLogin" data-provider="LoginProvider" finished-at="2018-09-10T11:01:55Z" duration-ms="11715" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[wrongemail@mail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[wrongpassword]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"id","selector":"home-page-user"}
+  (Session info: chrome=69.0.3497.81)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:05:20.749Z'
+System info: host: 'ADMINRG-LUNIIA4', ip: '192.168.1.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '10.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.41.578737 (49da6702b16031..., userDataDir: C:\Users\Boban\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:60166}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.81, webStorageEnabled: true}
+Session ID: 955d34ccfd44effc12d3acc3f1578a27
+*** Element info: {Using=id, value=home-page-user}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"id","selector":"home-page-user"}
+  (Session info: chrome=69.0.3497.81)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:05:20.749Z'
+System info: host: 'ADMINRG-LUNIIA4', ip: '192.168.1.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '10.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.41.578737 (49da6702b16031..., userDataDir: C:\Users\Boban\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:60166}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.81, webStorageEnabled: true}
+Session ID: 955d34ccfd44effc12d3acc3f1578a27
+*** Element info: {Using=id, value=home-page-user}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.base/java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:368)
+at org.openqa.selenium.By$ById.findElement(By.java:188)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy15.isDisplayed(Unknown Source)
+at pages.HeaderMenu.isAt(HeaderMenu.java:51)
+at tests.LoginPageTest.canLogin(LoginPageTest.java:32)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- canLogin -->
+        <test-method is-config="true" signature="setupDriver(java.lang.String)[pri:0, instance:tests.LoginPageTest@3af9c5b7]" started-at="2018-09-10T11:01:55Z" name="setupDriver" finished-at="2018-09-10T11:01:56Z" duration-ms="469" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://app.invoice-factory.source-code.rs]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="canLogin(java.lang.String, java.lang.String)[pri:1, instance:tests.LoginPageTest@3af9c5b7]" started-at="2018-09-10T11:01:56Z" name="canLogin" data-provider="LoginProvider" finished-at="2018-09-10T11:01:58Z" duration-ms="2425" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[r.slobodan75@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[qwe123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- canLogin -->
+        <test-method is-config="true" signature="clearCookies()[pri:0, instance:tests.LoginPageTest@3af9c5b7]" started-at="2018-09-10T11:03:00Z" name="clearCookies" finished-at="2018-09-10T11:03:00Z" duration-ms="29" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearCookies -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:tests.LoginPageTest@3af9c5b7]" started-at="2018-09-10T11:03:01Z" name="afterClass" finished-at="2018-09-10T11:03:03Z" duration-ms="2389" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- tests.LoginPageTest -->
+    </test> <!-- Testing -->
+  </suite> <!-- TestSuite -->
+</testng-results>
